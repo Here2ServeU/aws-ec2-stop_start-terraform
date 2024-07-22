@@ -1,4 +1,4 @@
-# Building an Infrastructure That Will Automate Starting and Stopping EC2 Instances
+# Building an Infrastructure That Will Automate Starting and Stopping EC2 Instances On A Schedule Time
 
 ## Introduction:
 * 👋 Hey everyone! Welcome back to my GitHub.
