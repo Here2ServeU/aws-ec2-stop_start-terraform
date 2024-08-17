@@ -12,7 +12,7 @@
 
 ## Steps:
 **1. Clone this Repo to your local machine:**
-* git clone https://github.com/aws-ec2-stop_start-terraform
+* git clone https://github.com/aws-ec2-stop_start-terraform/
 * Decide what runtime you want to use between Python and NodeJS: 
          * cd python-runtime
          * cd nodejs-runtime
