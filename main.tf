@@ -47,7 +47,7 @@ resource "aws_sns_topic" "ec2_notifications" {
 resource "aws_sns_topic_subscription" "email_subscription" {
   topic_arn = aws_sns_topic.ec2_notifications.arn
   protocol  = "email"
-  endpoint  = "t2scloud@gmail.com"
+  endpoint  = var.email
 }
 
 resource "aws_lambda_function" "stop_ec2" {
