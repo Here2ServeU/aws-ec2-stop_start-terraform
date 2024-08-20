@@ -18,3 +18,8 @@ variable "stop_schedule" {
   description = "Cron expression for the stop schedule"
   type        = string
 }
+
+variable "email" {
+   description = "Email to use as Endpoint for SNS"
+   type = string
+}
